@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive images</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+       
+        <div class="image-2-contanier">
+            <p>Changing image based on screen sizes</p>
+            <picture class="image-2-parent">
+                <source class="image-2" media="(min-width:1200px)" srcset="assets/black-sands-1.jpg">
+                <source class="image-2" media="(min-width:768px)" srcset="assets/black-sands-2.jpg">
+                <img class="image-2" src="assets/black-sands-3.jpg" alt="image-2">
+            </picture>
+            
+        </div>
+        
+        <div class="image-1-container">
+            <p>Responsive image adjusts to the screen width</p>
+            <img class="image-1" src="assets/pngtree-nature-background-sunset-wallpaer-with-beautiful-flower-farms-picture-image_2503007.jpg" alt="image-1">
+        </div>
+    </div>
+</body>
+</html>
